@@ -10,23 +10,23 @@ The bank has historical information on relevant features for each customer such 
 
 The data set has 17 columns and 1000 rows. Columns are described below and each row is a customer. 
 
-checking_balance - Amount of money available in account of customers
-months_loan_duration - Duration since loan taken
-credit_history - credit history of each customers
-purpose - Purpose why loan has been taken
-amount - Amount of loan taken
-savings_balance - Balance in account
-employment_duration - Duration of employment
-percent_of_income - Percentage of monthly income
-years_at_residence - Duration of current residence
-age - Age of customer
-other_credit - Any other credits taken
-housing- Type of housing, rent or own
-existing_loans_count - Existing count of loans
-job - Job type
-dependents - Any dependents on customer
-phone - Having phone or not
-default - Default status (Target column)
+1. checking_balance - Amount of money available in account of customers
+2. months_loan_duration - Duration since loan taken
+3. credit_history - credit history of each customers
+4. purpose - Purpose why loan has been taken
+5. amount - Amount of loan taken
+6. savings_balance - Balance in account
+7. employment_duration - Duration of employment
+8. percent_of_income - Percentage of monthly income
+9. years_at_residence - Duration of current residence
+10. age - Age of customer
+11. other_credit - Any other credits taken
+12. housing- Type of housing, rent or own
+13. existing_loans_count - Existing count of loans
+14. job - Job type
+15. dependents - Any dependents on customer
+16. phone - Having phone or not
+17. default - Default status (Target column)
 
 ## Project Structure
 
