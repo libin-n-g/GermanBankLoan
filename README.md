@@ -5,10 +5,10 @@ Domain: Banking
 ### Context
 This data set contains historical data of the customers who have taken loans from a German bank and the bank is facing issues with loan defaulters. The bank intends to build a machine learning model to predict whether the customer will default or not based on historical data
 
-### Data Description: 
-The bank has historical information on relevant features for each customer such as employment duration, existing loans count, saving balance, percentage of income, age, default status. 
+### Data Description:
+The bank has historical information on relevant features for each customer such as employment duration, existing loans count, saving balance, percentage of income, age, default status.
 
-The data set has 17 columns and 1000 rows. Columns are described below and each row is a customer. 
+The data set has 17 columns and 1000 rows. Columns are described below and each row is a customer.
 
 1. checking_balance - Amount of money available in account of customers
 2. months_loan_duration - Duration since loan taken
@@ -35,7 +35,7 @@ The data set has 17 columns and 1000 rows. Columns are described below and each 
 - `Project-EDA.html`: HTML version of the EDA notebook for easier viewing.
 - `Project-Models.ipynb`: Jupyter notebook containing the machine learning modeling process and evaluvation of models.
 - `Project-Models.html`: HTML version of the modeling notebook for easier viewing.
-- `preprocessed_credit.csv`: Preprocessed dataset used in the analysis which is result of preprocessing in Project-EDA.ipynb.
+- `preprocessed_credit.csv`: Preprocessed dataset used in the analysis which is result of preprocessing in Project-EDA.ipynb and input for major models in Project-Models.ipynb.
 - `credit.csv`: Original dataset used in the analysis.
 
 # References
@@ -44,3 +44,4 @@ The data set has 17 columns and 1000 rows. Columns are described below and each 
  - https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html
  - https://www.analyticsvidhya.com/blog/2021/06/5-techniques-to-handle-imbalanced-data-for-a-classification-problem/
  - https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier
+ - https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/
